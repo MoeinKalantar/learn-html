@@ -81,3 +81,63 @@
 | `<article></article>`   | تگ معنادار برای قسمت های مربوط به مقالات        |
 | `<footer></footer>`      | تگ معنا دار برای قسمت پاورقی سایت       |
 
+### form elements
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| `<form></form>`      | ایجاد فرم       |
+| `<fieldeset></fieldeset>`   | ایجاد یک فیلد برای فرم        |
+| `<legend></legend>`      | نام فیلد       |
+| `<lable></lable>`   | ایجاد نام برای اینپوت ها        |
+| `<input type="text"></input>`      | یک ورودی از نوع متن ایجاد میکند       |
+| `<input type="radio"></input>`   | <span lang="fa" dir="rtl">ایجاد radio button</span>        |
+| `<input type="checkbox"></input>`      | <span lang="fa" dir="rtl">ایجاد checkbox با قابلیت انتخاب چند گزینه</span>       |
+| `<input type="submit">`   | ایجاد دکمه ارسال برای فرم        |
+| `<select></select>`      | ایجاد یک منو کشویی       |
+| `<option>`   | <span lang="fa" dir="rtl">ایجاد ایتم برای select و datalist</span>        |
+| `<textarea></textarea>`      | <span lang="fa" dir="rtl">ایجاد text box</span>       |
+| `<datalist></datalist>`   | ایجاد یک دیتا لیست برای متصل کردن ان به یک ورودی با قابلیت سرچ        |
+
+### input types
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| `<input type="email">`      | ایجاد ورودی از نوع ایمیل       |
+| `<input type="number">`   | ایجاد ورودی از نوع عددی        |
+| `<input type="password">`      | ایجاد وروردی از نوع رمز       |
+| `<input type="range">`   | Text        |
+| `<input type="date/month/week/time">`      | ایجاد ورودی ار نوع تاریخ و...      |
+| `<input type="color">`   | ایجاد ورودی با انتخاب رنگ       |
+
+### form attributies
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| `action="#"`      | مسیر ارسال فرم       |
+| `method="get/post"`   | روش ارسال فرم        |
+| `target="_blank"`      | ارسال فرم در تب جدید      |
+| `autocomplete="on/off"`   |  تکمیل خودکار فرم       |
+
+### input attributies
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| `type=""`      | نوع ورودی را مشخص میکند       |
+| `name=""`   | نام متغییری که مقدار را دریافت میکند        |
+| `id=""`      |  id      |
+| `value=""`   | مقدار        |
+| `required`      | پر بودن ورودی موردنیاز است       |
+| `readonly`   | فقط قابلیت خواندن دارد و نمی شود تغییری ایجاد کرد        |
+| `placeholder`      | یک متن کم رنگ شده داخل ورودی برای راهنمایی کاربر       |
+| `disabled`   | غیرفعال شدن یک ورودی        |
+| `maxlength=""`      | حداکثر طول یک ورودی       |
+| `minlength=""`   | حداقل طول یک ورودی        |
+| `multiple`      | انتخاب چند مورد       |
+| `autofocus`   | <span lang="fa" dir="rtl">هنگام لود صفحه ورودی که autofocus دارد انتخاب می شود</span>        |
+| `min="" max=""`      | یک محدوده رو میتوان مشخص کرد       |
+
+
+
+
+
+

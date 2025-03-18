@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on">
+        <fieldset style="width: 400px;">
+            <legend>فرم نظرسنجی</legend>
+            <label for="fullname">نام و نام خوانوادگی:</label>
+            <input type="text" name="fullname" id="fullname">
+            <br><br>
+            <label for="selectbox">میزان رضایت:</label>
+            <select name="Satisfaction" id="selectbox">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br>
+            <input type="radio" name="gender" id="radio1" value="مرد">
+            <label for="radio1">مرد</label>
+            <input type="radio" name="gender" id="radio2" value="زن">
+            <label for="radio2">زن</label>
+            <br><br>
+            <label for="textarea">نظرات:</label>
+            <br><br>
+            <textarea name="Comments" id="textarea" cols="35" rows="10"></textarea>
+            <br><br>
+            <input type="checkbox" name="Verification" id="checkbox" value="true">
+            <label for="checkbox">تأیید قوانین</label>
+            <br><br>
+            <button type="submit">ارسال</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

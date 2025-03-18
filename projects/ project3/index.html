@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="./image/favicon.png" />
+
+    <style>
+      body {
+        font-family: tahoma;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="get" autocomplete="on">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <h3>Full Name:</h3>
+        <div>
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="fname" />
+        </div>
+
+        <div>
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="lname" />
+        </div>
+        <br />
+        <div>
+          <h3>Gender:</h3>
+          <input type="radio" id="radio1" name="gender" value="male" />
+          <label for="radio1">male</label>
+          <br />
+          <input type="radio" id="radio2" name="gender" value="female" />
+          <label for="radio2">female</label>
+        </div>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Skills</legend>
+        <div>
+          <h3>Language:</h3>
+          <input type="checkbox" name="skill1" id="checkbox1" value="html" />
+          <label for="checkbox1">html</label>
+          <br />
+          <input type="checkbox" name="skill2" id="checkbox2" value="css" />
+          <label for="checkbox2">css</label>
+          <br />
+          <input type="checkbox" name="skill3" id="checkbox3" value="js" />
+          <label for="checkbox3">js</label>
+        </div>
+      </fieldset>
+      <div>
+        <h3>Choose your language:</h3>
+        <input type="text" name="language" list="datalist" />
+        <datalist id="datalist">
+          <option value="html">html</option>
+          <option value="css">css</option>
+          <option value="js">js</option>
+          <option value="php">php</option>
+          <option value="c">c</option>
+        </datalist>
+      </div>
+      <br />
+      <div>
+        <button type="submit">save</button>
+      </div>
+    </form>
+  </body>
+</html>
