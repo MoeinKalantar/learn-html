@@ -136,8 +136,10 @@
 | `autofocus`   | <span lang="fa" dir="rtl">هنگام لود صفحه ورودی که autofocus دارد انتخاب می شود</span>        |
 | `min="" max=""`      | یک محدوده رو میتوان مشخص کرد       |
 
+### iframe - video & audio
 
-
-
-
-
+| Syntax      | Description |
+| ----------- | ----------- |
+| `<iframe src=""></iframe>`      | اضافه کردن یک وبسایت        |
+| `<video src="" controls></video>`   | video        |
+| `<audio src="" controls></audio>`      | audio       |
